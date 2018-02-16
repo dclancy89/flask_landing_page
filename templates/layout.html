@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Flask App</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+	<a href="/">Home</a> | <a href="/ninjas">Ninjas</a> | <a href="dojos/new">New Dojo</a>
+
+	{% block body %}
+
+	{% endblock %}
+</body>
+</html>

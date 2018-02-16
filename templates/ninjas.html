@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block body %}
+<h1>Ninjas</h1>
+<img src="{{ url_for('static', filename='images/ninja.png') }}" alt="ninja" />
+<p>That is a ninja up there</p>
+<p>Facts about ninjas</p>
+<ul>
+	<li>Lego ninjas have elements (Fire, Ice, Green, Surprise)</li>
+	<li>Ninjas learn an art called Ninjitsu</li>
+	<li>Sometimes turtles get exposed to radioactive goo and turn into teenage ninjas</li>
+</ul>
+
+<a href="/">Home</a>
+
+{% endblock %}
